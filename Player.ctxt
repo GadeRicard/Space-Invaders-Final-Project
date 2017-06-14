@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkKeys()
+comment2.text=\r\n\ checkKeys\ checks\ which\ keys\ are\ being\ pressed\ by\ the\ player,\ and\ moves\ the\ \r\n\ Player\ object\ or\ calls\ the\ fire\ method.\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n\ \r\n\ This\ method\ is\ private\ because\ it\ will\ only\ be\ used\ within\ the\ Player\ class.\r\n
+comment3.params=
+comment3.target=void\ fire()
+comment3.text=\r\n\ fire\ creates\ a\ Shot\ object\ if\ there\ is\ not\ already\ one\ in\ existance.\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n\ \r\n\ This\ method\ is\ private\ because\ it\ will\ only\ be\ called\ from\ the\ Player\ class.\r\n
+comment4.params=
+comment4.target=void\ checkCollision()
+comment4.text=\r\n\ checkCollision\ checks\ if\ the\ Player\ object\ is\ touching\ an\ Enemy\ object\ or\ an\r\n\ Enemy_Shot\ object,\ or\ if\ there\ are\ no\ Enemy\ objects\ in\ the\ world,\ and\ calls\ the\ \r\n\ gameOver\ method\ in\ MyWorld\ if\ any\ of\ these\ conditions\ are\ true.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned.\r\n\ \r\n\ This\ method\ is\ private\ because\ it\ will\ only\ be\ called\ from\ the\ Player\ class.\r\n
+numComments=5

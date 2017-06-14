@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ A\ (mostly)\ working\ replication\ of\ the\ video\ game\ "Space\ Invaders"\r\n\ \r\n\ Author\:\ Gade\ Ricard\r\n\ Teacher\:\ Mr.Hardman\r\n\ Assignment\:\ Final\ Assignment\r\n\ Date\ Last\ Modified\:\ June\ 13th\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ When\ an\ object\ of\ the\ class\ MyWorld\ is\ created,\ this\ method\ is\ called.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\r\n\ initialize\ creates\ the\ objects\ in\ the\ game\ when\ the\ world\ is\ created.\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n\ \r\n\ This\ method\ is\ private\ because\ it\ will\ only\ be\ called\ a\ single\ time,\ only\ in\ this\ class.\r\n
+comment3.params=
+comment3.target=void\ gameOver()
+comment3.text=\r\n\ gameOver\ calculates\ the\ score\ obtained\ in\ this\ playthrough,\r\n\ and\ creates,\ changes\ and\ displays\ the\ leaderboard\ when\ the\ game\ is\ completed.\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n\ \r\n\ This\ method\ is\ public\ because\ it\ needs\ to\ be\ called\ by\ other\ classes\ outside\ of\ MyWorld,\r\n\ such\ as\ the\ Player\ class\ and\ the\ Enemy\ class.\r\n
+numComments=4
